@@ -25,6 +25,7 @@ function App() {
     setValData(data);
   }, []);
 
+  //fetch data
   let sortdata = () => {
     let val = data.sort();
     console.log(val, "value of data");
